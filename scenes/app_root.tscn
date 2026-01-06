@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://cid4a4tb55h5s"]
+
+[ext_resource type="Script" uid="uid://d3u4hmkpd1x7r" path="res://scripts/Di/MainSceneContext.cs" id="1_wfrj6"]
+
+[node name="AppRoot" type="Node"]
+script = ExtResource("1_wfrj6")
+
+[node name="SceneMap" type="Node" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="UiRoot" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="MainScreen" type="Control" parent="CanvasLayer/UiRoot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer/UiRoot/MainScreen"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

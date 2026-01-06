@@ -1,0 +1,41 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="SimpleClickerGameGodot"
+run/main_scene="uid://cid4a4tb55h5s"
+config/features=PackedStringArray("4.5", "C#", "Mobile")
+boot_splash/show_image=false
+config/icon="res://assets/art/icon.svg"
+
+[autoload]
+
+GlobalDependencyResolver="*res://scripts/Di/GlobalDependencyResolver.cs"
+
+[display]
+
+window/size/viewport_width=430
+window/size/viewport_height=932
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep_height"
+window/handheld/orientation=5
+
+[dotnet]
+
+project/assembly_name="SimpleClickerGameGodot"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/Notchz/plugin.cfg", "res://addons/SmoothScroll/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="mobile"
