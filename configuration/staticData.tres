@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="StaticGameData" load_steps=5 format=3 uid="uid://of1dala6eiy5"]
+
+[ext_resource type="Script" uid="uid://cdy1lve7ulpxs" path="res://scripts/Config/CurrencyDefinition.cs" id="1_h2f6u"]
+[ext_resource type="Script" uid="uid://cbfxnqcw05muh" path="res://scripts/Config/StaticGameData.cs" id="1_o0xra"]
+[ext_resource type="Script" uid="uid://ddb3q767qwsqo" path="res://scripts/Config/GeneratorDefinition.cs" id="2_rvah8"]
+[ext_resource type="Script" uid="uid://bepugitnwnuha" path="res://scripts/Config/ManagerDefinition.cs" id="3_gc5oa"]
+
+[resource]
+script = ExtResource("1_o0xra")
+metadata/_custom_type_script = "uid://cbfxnqcw05muh"

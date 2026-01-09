@@ -10,4 +10,7 @@
     <PackageReference Include="AutofacGodotDi" Version="1.0.9" />
     <PackageReference Include="GDTask" Version="1.7.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="scripts\Presentation\" />
+  </ItemGroup>
 </Project>
