@@ -34,7 +34,7 @@ project/assembly_name="SimpleClickerGameGodot"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/Notchz/plugin.cfg", "res://addons/SmoothScroll/plugin.cfg")
+enabled=PackedStringArray("res://addons/SmoothScroll/plugin.cfg")
 
 [rendering]
 
