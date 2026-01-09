@@ -8,5 +8,6 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="9.0.0" />
     <PackageReference Include="AutofacGodotDi" Version="1.0.9" />
+    <PackageReference Include="GDTask" Version="1.7.0" />
   </ItemGroup>
 </Project>
